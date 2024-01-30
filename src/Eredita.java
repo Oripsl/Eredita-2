@@ -1,4 +1,4 @@
-public class Polimorfismo {
+public class Eredita {
 
     public static void main(String[] args) {
         Forma forma = new Forma();
@@ -6,9 +6,7 @@ public class Polimorfismo {
 
         System.out.println(rettangolo.calcolaArea());
 
-        Triangolo triangolo = new Triangolo(5 , 9);
 
-        System.out.println(triangolo.calcolaArea());
 
     }
 }
